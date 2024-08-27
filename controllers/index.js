@@ -1,9 +1,8 @@
 const router = require('express').Router();
 const homeRoutes = require('./homeRoutes');
-
-console.log('homeRoutes:', homeRoutes);
-console.log('typeof homeRoutes:', typeof homeRoutes);
+const userRoutes = require('./userRoutes');
 
 router.use('/', homeRoutes);
+router.use('/users', userRoutes);
 
 module.exports = router;

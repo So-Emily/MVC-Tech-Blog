@@ -32,5 +32,5 @@ app.use(express.static('public'));
 app.use(require('./controllers'));
 
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log(`Now listening on port ${PORT}`));
+    app.listen(PORT, () => console.log(`Now listening at http://localhost:${PORT}`));
 });

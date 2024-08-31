@@ -1,11 +1,23 @@
-<body>
-    <h1>Login</h1>
-    <form action="/users/login" method="POST">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Login</button>
-    </form>
-    <p>Don't have an account? <a href="/users/signup">Sign up</a></p>
+<head>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<body class="text-light">
+    <div style="margin: 20px;">
+        <h1>Login</h1>
+        <form action="/users/login" method="POST">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
+        <br>
+        <p>Don't have an account? <a href="/users/signup" class="sml-btn">Sign up</a></p>
+        
+    </div>
 </body>

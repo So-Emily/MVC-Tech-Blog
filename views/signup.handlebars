@@ -5,7 +5,7 @@
 <body>
     <div class="text-light" style="margin: 20px;">
         <h1>Sign Up</h1>
-        <form action="/users/signup" method="POST">
+        <form id="signup-form" action="/users/signup" method="POST">
             <label for="username">Username:</label>
             <br>
             <input type="text" id="username" name="username">
@@ -23,4 +23,7 @@
         <br>
         <p>Already have an account? <a href="/users/login" class="sml-btn">Login</a></p>
     </div>
+
+    {{!-- Custom JS --}}
+    <script src="/js/signup.js"></script>
 </body>

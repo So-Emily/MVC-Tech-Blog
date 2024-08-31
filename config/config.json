@@ -2,7 +2,7 @@
     "development": {
         "username": "localhost",
         "password": "password",
-        "database": "techBlog_db",
+        "database": "tech_blog_db",
         "host": "127.0.0.1",
         "dialect": "postgres"
     }

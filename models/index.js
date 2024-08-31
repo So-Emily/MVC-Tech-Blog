@@ -1,4 +1,7 @@
 // models/index.js
-const Post = require('./post');
+const User = require('./User');
+const Post = require('./Post');
 
-module.exports = { Post };
+
+
+module.exports = { User, Post };

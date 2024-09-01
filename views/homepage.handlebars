@@ -9,7 +9,14 @@
 </head>
 <body>
     <br><br>
+    {{#if loggedIn}}
+    <div class="text-light">
+        <h1 class="welcome-title">Hello, {{username}}!</h1>
+        <h1 class="home-title">Welcome To Your Tech Blog</h1>
+    </div>
+    {{else}}
     <h1 class="home-title">The Tech Blog</h1>
+    {{/if}}
 {{!-- homepage should display blog posts if there are any --}}
     {{#each posts}}
     <div class="post">

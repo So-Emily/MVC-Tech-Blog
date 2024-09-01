@@ -1,12 +1,19 @@
 .home-title {
     text-align: center;
     /* Center the title */
-    /* margin: 10px auto; */
-    margin: 10px;
-    margin-top: -2%;
+    margin: 10px auto;
+    /* margin: 20px; */
+    /* margin-top: -2%; */
     padding: 10px;
     background-color: #333;
     color: #fff;
     border-radius: 10px;
     width: fit-content;
 }
+
+.welcome-title{
+    text-align: center;
+    font-size: 2em;
+    margin-top: -2%;
+}
+

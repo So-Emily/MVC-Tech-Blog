@@ -65,4 +65,16 @@ router.post('/signup', async (req, res) => {
     }
 });
 
+// Log out
+router.get('/logout', (req, res) => {
+    if (req.session.loggedIn) {
+        req.session.destroy(() => {
+            res.redirect('/'); // Redirect to homepage after logout
+        });
+    } else {
+        res.redirect('/'); // If not logged in, redirect to homepage
+    }
+})
+
+
 module.exports = router;

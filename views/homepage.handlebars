@@ -1,9 +1,4 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Blog</title>
-
-    {{!-- Custom CSS --}}
     <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
@@ -16,6 +11,7 @@
     {{else}}
     <h1 class="home-title" style="margin-top: -2%;">The Tech Blog</h1>
     {{/if}}
+
 {{!-- homepage should display blog posts if there are any --}}
     {{#each posts}}
     <div class="post">
@@ -24,5 +20,13 @@
         <p>Posted by {{this.username}} on {{this.createdAt}}</p>
     </div>
     {{/each}}
+
+    {{#if loggedIn}}
+    <div class="text-center">
+        <div class="text-center fixed-bottom" style="margin: 20px;">
+            <button class="btn btn-outline-light">Create a new post</button>
+        </div>
+    </div>
+    {{/if}}
 </body>
 </html>

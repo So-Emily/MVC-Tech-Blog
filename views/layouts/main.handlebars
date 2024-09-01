@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <nav class="navbar fixed-top bg-dark">
+    <nav class="navbar fixed-top custom-navbar">
         <div class="container-fluid">
             <div class="d-flex justify-content-between w-100">
                 <div>
-                    <a href="/" class="text-white">Home</a>
-                    <a href="/" class="text-white">Dashboard</a>
+                    <a href="/" class="nav-links">Home</a>
+                    <a href="/" class="nav-links">Dashboard</a>
                 </div>
                 {{#if loggedIn}}
                     {{!-- <div class="text-center">
                         <span class="text-white">Welcome, {{username}}</span>
                     </div> --}}
                     <div>
-                        <a href="/users/logout" class="text-white">Logout</a>
+                        <a href="/users/logout" class="nav-links">Logout</a>
                     </div>
                 {{else}}
                     <div>
-                        <a href="/users/login" class="text-white">Login</a>
+                        <a href="/users/login" class="nav-links">Login</a>
                         {{!-- <a href="/users/signup" class="text-white">Sign Up</a> --}}
                     </div>
                 {{/if}}

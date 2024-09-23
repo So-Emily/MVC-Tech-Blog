@@ -9,6 +9,7 @@
 
 h1 {
     margin-bottom: 25px;
+    margin-top: -20px;
     text-decoration: underline;
     text-underline-offset: 5px;
 }

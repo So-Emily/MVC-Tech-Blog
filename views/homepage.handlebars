@@ -6,7 +6,7 @@
     {{#if loggedIn}}
     <div class="text-light">
         <h1 class="welcome-title">Hello, {{username}}!</h1>
-        <h1 class="home-title">Welcome To Your Tech Blog</h1>
+        <h1 class="home-title">Welcome To The Tech Blog</h1>
     </div>
     {{else}}
     <h1 class="home-title" style="margin-top: -2%;">The Tech Blog</h1>
@@ -14,7 +14,7 @@
 
 {{!-- homepage should display blog posts if there are any --}}
     {{#each posts}}
-    <div class="post">
+    <div class="post ">
         <h2>{{this.title}}</h2>
         <p>{{this.content}}</p>
         <p>Posted by {{this.username}} on {{this.createdAt}}</p>
@@ -24,7 +24,7 @@
     {{#if loggedIn}}
     <div class="text-center">
         <div class="text-center fixed-bottom" style="margin: 20px;">
-            <button class="btn btn-outline-light">Create a new post</button>
+            <a href="/create-post" class="btn create-btn btn-outline-light">Create a new post</a>
         </div>
     </div>
     {{/if}}

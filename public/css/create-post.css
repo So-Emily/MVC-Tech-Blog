@@ -1,0 +1,36 @@
+/* create-post.css */
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#create-post {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; 
+    
+} */
+
+.form-container {
+    width: 100%;
+    max-width: 700px; /* Adjust the max-width as needed */
+    padding: 20px;
+
+}
+
+.create-title {
+    text-shadow: 2px 2px 4px #000000;
+    text-underline-offset: 4px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.create-sml-title {
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 2px;
+}
+
+.form-control {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

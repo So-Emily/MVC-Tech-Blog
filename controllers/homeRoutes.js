@@ -42,4 +42,17 @@ router.get('/dashboard', async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+router.get('/create-post', (req, res) => {
+    if (!req.session.loggedIn) {
+        res.redirect('/users/login');
+        return;
+    }
+    
+    res.render('create-post', {
+        loggedIn: req.session.loggedIn,
+        username: req.session.username
+    });
+});
+
 module.exports = router;

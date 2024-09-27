@@ -1,13 +1,25 @@
-<body>
-    <h1>Sign Up</h1>
-    <form action="/users/signup" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-        <button type="submit">Sign Up</button>
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<div class="card">
+  <div class="card-header">
+    <h2 class="text-center">Sign Up</h2>
+  </div>
+  <div id="signup" role="tabpanel">
+    <form id="signup-form" class="card-body">
+      <div>
+        <label for="username-input-signup" class="form-label text-center">Username</label>
+        <input type="text" id="username-input-signup" />
+      </div>
+      <div>
+        <label for="password-input-signup" class="form-label text-center">Password</label>
+        <input type="password" id="password-input-signup" />
+      </div>
+      <button type="submit" id="signup-btn" class="btn log-btn">Signup</button>
+      <a class="text-center" href="/login">Login instead!</a>
     </form>
-    <p>Already have an account? <a href="/users/login">Login</a></p>
-</body>
+  </div>
+</div>
+
+<script src="/js/signup.js"></script>

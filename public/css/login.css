@@ -1,0 +1,15 @@
+.text-center {
+    text-align: center;
+}
+
+.instead-btn {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.log-btn:hover {
+    background-color: #4b1464;
+}

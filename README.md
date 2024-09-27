@@ -81,4 +81,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Questions
 
-If you have any questions, please open an issue or contact me directly at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions, feel free to reach out to me at [So-Emily on GitHub](https://github.com/So-Emily).
+

@@ -1,14 +1,14 @@
 [
   {
-    "title": "The Ultimate Gaming App",
-    "body": "A webb app that will give users 10 new gaming questions each day and track their progress in things like game design, game theory, and more!"
+    "title": "Music Near Me",
+    "body": "A mobile app that will send you notifications whenever a concert is playing in your area."
   },
   {
-    "title": "The Best Pokemon Guide App",
-    "body": "A web app that will give users the best tips and tricks for Pokemon Go, including how to catch the rarest Pokemon, how to level up quickly, and more!"
+    "title": "The Ultimate Tech Quiz",
+    "body": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
   },
   {
-    "title": "Rock Paper, Scissors",
-    "body": "A game for Windows and macOS where players can play rock paper scissors against the computer. The computer will keep track of the player's wins and losses and display them on the screen."
+    "title": "Roll 'Em Up",
+    "body": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
   }
 ]

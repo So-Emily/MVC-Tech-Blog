@@ -2,7 +2,10 @@
 
 ## Description
 
-The MVC Tech Blog is a web application that allows users to create, edit, and delete blog posts. Users can also comment on posts. The application follows the Model-View-Controller (MVC) architectural pattern and uses Handlebars.js as the templating engine, Sequelize as the ORM, and Express.js for the server.
+The MVC Tech Blog is a web application that allows users to create, edit, and delete blog posts and comment on them. The application follows the Model-View-Controller (MVC) architectural pattern and uses Handlebars.js as the templating engine, Sequelize as the ORM, and Express.js for the server.
+
+![tech-blog-img](https://github.com/user-attachments/assets/7046b900-5a91-46fd-9a76-040ac1bd1f10)
+
 
 ## Table of Contents
 

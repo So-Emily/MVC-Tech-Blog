@@ -10,11 +10,19 @@ const helpers = require('./utils/helpers');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.set('trust proxy', 1);
+
 const sess = {
-  secret: 'Super secret secret',
-  cookie: {},
+  secret: process.env.SESSION_SECRET,
+  cookie: {
+    maxAge: 3600000,
+    httpOnly: true,
+    secure: true,
+    sameSite: 'strict',
+  },
   resave: false,
   saveUninitialized: true,
+  // This stores the session data in the database
   store: new SequelizeStore({
     db: sequelize
   })
